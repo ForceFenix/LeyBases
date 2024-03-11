@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Rosarivo:ital@0;1&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Lora", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --celeste-elegante: #98A5D2;
+  --azul-elegante: #242848;
+  --marron-elegante: #AA9077;
+  --blanco-elegante: #e6e6ee;
+  --gris-elegante: #CDCDCD;
+  --beige-elegante: #e0d1c4;
+
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Rosarivo:ital@0;1&display=swap');
+
+.parrafos-container{
+    background-color: var(--azul-elegante);
+    display: flex;
+    padding: 20px;
+    box-shadow: 0px 90px 75px -150px var(--marron-elegante) inset, 0px -90px 75px -150px var(--marron-elegante) inset;
+}
+
+
+
+.parrafo {
+    width: 1000px;
+    height: 60%;
+    color: var(--blanco-elegante);
+    /* border-top: 1px solid var(--marron-elegante); */
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 90px 0px 100px -110px var(--marron-elegante), -90px 0px 100px -110px var(--marron-elegante);
+    gap: 20px;
+    margin: auto;
+    padding: 50px 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.parrafo h2 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--marron-elegante);
+
+}
+
+.subtitulo {
+    padding-left: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.cita{
+    padding-left: 40px;
+    font-size: 20px;
+    font-style: italic;
+}
