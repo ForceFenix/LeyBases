@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Waterfall&display=swap');
+
+
+
+.frases-container{
+    background-color: var(--blanco-elegante);
+}
+
+.frases{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: var(--box-shadow-azul)
+}
+
+.frases--foto{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    filter: grayscale();
+    margin-left: 20px;
+    transition: all .3s;
+}
+
+.frases--foto:hover{
+    filter: none;
+}
+
+.frases--foto > img{
+    width: 100%;
+    height: 100%;
+}
+
+.frases--texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: "Waterfall", cursive;
+    color: var(--azul-elegante);
+}

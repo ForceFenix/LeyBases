@@ -24,7 +24,7 @@ section */
 }
 
 
-/* TITULOS */
+/* PESTAÑAS */
 .titulos-container {
     width: 1000px;
     display: flex;
@@ -41,6 +41,16 @@ section */
     padding: 10px;
     text-align: center;
     margin-top: 10px;
+}
+.titulos-container > li > button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-size: 25px;
+    font-family: "Lora", serif;
+    cursor: pointer;
 }
 /* UTILIZADO EN colorIntercalado() */
 .oscura{

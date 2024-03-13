@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 :root {
@@ -17,5 +18,8 @@
   --blanco-elegante: #e6e6ee;
   --gris-elegante: #CDCDCD;
   --beige-elegante: #e0d1c4;
+
+  --box-shadow-azul: 90px 0px 100px -110px var(--gris-elegante), -90px 0px 100px -110px var(--gris-elegante);
+  --box-shadow-marron: 90px 0px 100px -110px var(--marron-elegante), -90px 0px 100px -110px var(--marron-elegante);
 
 }
