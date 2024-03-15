@@ -1,5 +1,6 @@
 import React from 'react';
 import './Parrafo.css'
+import { ReferenciaContainer } from './ReferenciaContainer/ReferenciaContainer';
 
 const Parrafo = () => {
     return (
@@ -16,6 +17,7 @@ const Parrafo = () => {
                         saldada. Tampoco podrá participar en ninguna producción que reciba subsidios o créditos del Instituto, aunque no
                         fuera beneficiario de esos recursos en dichas producciones”
                     </p>
+                    < ReferenciaContainer />
                 </div>
             </section>
         </>

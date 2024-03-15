@@ -11,7 +11,7 @@
 
 .parrafo {
     width: 1000px;
-    height: 60%;
+    height: auto;
     color: var(--blanco-elegante);
     /* border-top: 1px solid var(--marron-elegante); */
     /* offset-x | offset-y | blur-radius | color */

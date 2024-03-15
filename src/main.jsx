@@ -9,10 +9,10 @@ import { FrasesContainer } from './Body/FrasesContainer/FrasesContainer.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <NavContainer />
+    {/* <NavContainer />
     <MainContainer/>
-    <CapitulosContainer />
+    <CapitulosContainer /> */}
     <Parrafo />
-    <FrasesContainer />
-  </React.StrictMode>,
+    {/* <FrasesContainer /> */}
+  </React.StrictMode>
 )

@@ -14,6 +14,7 @@ const FrasesContainer = () => {
                         <h2>"Un pueblo culto nunca puede ser esclavizado"</h2>
                         <h3>- Juan Manuel Belgrano</h3>
                     </div>
+                    
                 </div>
             </section>
 

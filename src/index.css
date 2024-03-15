@@ -12,12 +12,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  --celeste-elegante: #98A5D2;
   --azul-elegante: #242848;
-  --marron-elegante: #AA9077;
-  --blanco-elegante: #e6e6ee;
-  --gris-elegante: #CDCDCD;
   --beige-elegante: #e0d1c4;
+  --blanco-elegante: #e6e6ee;
+  --celeste-elegante: #98A5D2;
+  --gris-elegante: #CDCDCD;
+  --marron-elegante: #AA9077;
 
   --box-shadow-azul: 90px 0px 100px -110px var(--gris-elegante), -90px 0px 100px -110px var(--gris-elegante);
   --box-shadow-marron: 90px 0px 100px -110px var(--marron-elegante), -90px 0px 100px -110px var(--marron-elegante);
